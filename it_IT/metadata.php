@@ -1,29 +1,50 @@
 <?php
 
-return array(
+return [
 
-	'metadata' => 'Impostazioni',
+    'metadata'      => 'Impostazioni Sito',
+    'metadata_desc' => 'Modifica le impostazioni del tuo sito',
 
-	'sitename' => 'Nome sito',
-	'sitename_explain' => 'Il nome del tuo sito.',
-	'sitedescription' => 'Descrizione sito',
-	'sitedescription_explain' => 'Un corto paragrafo per descrivere il tuo sito.',
-	'homepage' => 'Home Page',
-	'homepage_explain' => 'La tua pagina principale corrente.',
-	'postspage' => 'Pagina Articoli',
-	'postspage_explain' => 'La tua pagina che mostra gli articoli.',
-	'posts_per_page' => 'Articoli per pagina',
-	'posts_per_page_explain' => 'Il numero degli articoli da mostrare in ogni pagina.',
-	'current_theme' => 'Tema corrente',
-	'current_theme_explain' => 'Il tuo tema corrtent.',
-	'auto_publish_comments' => 'Pubblica automaticamente i commenti',
-	'twitter' => 'Twitter',
-	'twitter_explain' => 'Il tuo account twitter. Mostrato come @<span id="output"></span>.',
-	'save' => 'Salva modifiche',
+    'comment_settings' => 'Commenti',
+    'theme_settings'   => 'Aspetto',
 
-	'missing_sitename' => 'Ti serve un nome del sito',
-	'missing_sitedescription' => 'Ti serve una descrizione del sito',
-	'missing_theme' => 'Ti serve un tema',
-	'meta_success_updated' => 'Le tue impostazioni sono state aggiornate'
+    // form fields
+    'sitename'         => 'Nome del sito',
+    'sitename_explain' => '',
+    'sitename_missing' => 'Il tuo sito ha bisogno di un Nome!',
 
-);
+    'sitedescription'         => 'Descrizione del Sito',
+    'sitedescription_explain' => 'Una Descrizione del tuo sito',
+    'sitedescription_missing' => 'Il tuo Sito ha bisogno di una  Descrizione!',
+
+    'homepage'         => 'Home Page',
+    'homepage_explain' => '',
+
+    'postspage'         => 'Pagina dei Posts',
+    'postspage_explain' => '',
+
+    'dashboard_page'         => 'Dashboard Page',
+    'dashboard_page_explain' => 'Pagina inziale di default',
+
+    'posts_per_page'         => 'Posts per pagina',
+    'posts_per_page_explain' => '',
+
+    'show_all_posts'         => 'Mostra tutti i post',
+    'show_all_posts_explain' => '',
+
+    'auto_publish_comments'         => 'Approva i commenti automaticamente',
+    'auto_publish_comments_explain' => '',
+
+    'comment_notifications'         => 'Invia una notifica Email per i nuovi commenti',
+    'comment_notifications_explain' => '',
+
+    'comment_moderation_keys'         => 'Parole non accettate nei commenti',
+    'comment_moderation_keys_explain' => 'L\'Elenco di parole non accettate deve essere separato da virgole . I commenti verranno automaticamente impostati come spam.',
+
+    'current_theme'         => 'Tema Corrente',
+    'current_theme_explain' => '',
+
+    // messages
+    'updated'               => 'Aggiornamento Metadata',
+
+];
